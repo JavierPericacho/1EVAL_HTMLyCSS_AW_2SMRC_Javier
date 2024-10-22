@@ -11,13 +11,13 @@
     <center>
         <h1>Formulario</h1>
         <form action="enviado">
-            <label for="">Nombre:<input type="text" required></label>
-            <label for="">Apellidos;<input type="text" required></label>
-            <label for="">Edad<input type="number" min="16"></label>
-            <label for="">Telefono;<input type="tel" required></label>
-            <label for="">Web;<input type="url"></label>
-            <label for="">Email;<input type="email"></label>
-            <label for="">Contraseña;<input type="password"></label><br>
+            <label for="nom">Nombre:<input type="text" required id="nom"></label>
+            <label for="ape">Apellidos;<input type="text" required id="ape"></label>
+            <label for="eda">Edad<input type="number" min="16" id="eda"></label>
+            <label for="tel">Telefono;<input type="tel" required id="tel"></label>
+            <label for="web">Web;<input type="url" id="web"></label>
+            <label for="ema">Email;<input type="email" id="ema"></label>
+            <label for="con">Contraseña;<input type="password" id="con"></label><br>
             <br>
             <input type="checkbox" name="" id="">1
             <input type="checkbox" name="" id="">2
@@ -45,20 +45,71 @@
             <label for="">
                 <p>pais</p>
                 <select name="" id="">
+                    <option value="0" selected>pais</option>
                     <optgroup label="Europa">
                         <option value="">españa</option>
                         <option value="">portugal</option>
                         <option value="">andorra</option>
                         <option value="">austria</option>
                         <option value="">reino unido</option>
+                        <option value="">italia</option>
                         <option value="">irlanda</option>
                         <option value="">alemania</option>
                         <option value="">belgica</option>
+                        <option value="">paises bajos</option>
                         <option value="">suiza</option>
+                        <option value="">luxenburgo</option>
+                        <option value="">polonia</option>
+                        <option value="">islancia</option>
+                        <option value="">dinamarca</option>
+                        <option value="">dinamarca (groenlandia)</option>
+                        <option value="">suecia</option>
+                        <option value="">noruega</option>
+                        <option value="">finlandia</option>
+                        <option value="">republica checa</option>
+                        <option value="">estonia</option>
+                        <option value="">letonia</option>
+                        <option value="">lituania</option>
+                        <option value="">hungria</option>
+                        <option value="">albania</option>
+                        <option value="">croacia</option>
+                        <option value="">eslovenia</option>
+                        <option value="">eslovakia</option>
+                        <option value="">macedonia del norte</option>
+                        <option value="">kosovo</option>
+                        <option value="">monte negro</option>
+                        <option value="">grecia</option>
+                        <option value="">bulgaria</option>
+                        <option value="">rumania</option>
+                        <option value="">moldavia</option>
+                        <option value="">rusia</option>
+                        <option value="">bielorusia</option>
+                        <option value="">ukrania</option>
+                        <option value="">serbia</option>
+                        <option value="">monaco</option>
+                        <option value="">san marino</option>
+                        <option value="">lenchestein</option>
+                        <option value="">ciudad del vaticano</option>
+                        <option value="">bosnia y hezergovina</option>
+                        <option value="">chipre (norte)</option>
+                        <option value="">chipre (sur)</option>
+                        <option value="">malta</option>
                     </optgroup>
                     <optgroup label="America">
                         <option value="">canada</option>
                         <option value="">mexico</option>
+                        <option value="">estados unidos</option>
+                        <option value="">panama</option>
+                        <option value="">el salvador</option>
+                        <option value="">honduras</option>
+                        <option value="">cuba</option>
+                        <option value="">...</option>
+                    </optgroup>
+                    <optgroup label="Otros">
+                        <option value="">transnistria</option>
+                        <option value="">sea land</option>
+                        <option value="">isla de man</option>
+                        <option value="">...</option>
                     </optgroup>
                 </select>
             </label>

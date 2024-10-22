@@ -1,0 +1,27 @@
+/*selector universal*/
+
+*{
+    background-color: aqua;
+}
+
+/*selector de etiqueta*/
+
+h1{
+    background-color: peru;
+}
+
+/*selector de clase*/
+
+p.p3{
+    background-color: aquamarine;
+}
+
+p.p2{
+    background-color: azure;
+}
+
+/*selector de id*/
+
+p#naranja{
+   background-color: orange; 
+}
