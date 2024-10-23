@@ -25,3 +25,17 @@ p.p2{
 p#naranja{
    background-color: orange; 
 }
+
+/*Selector descendiante*/
+
+footer.p{
+    color: crimson;
+}
+
+footer{
+    margin: ;
+    padding: ;
+    border-color: blueviolet red green yellow;
+    border-style: dotted;
+    border-width: 5px;
+}

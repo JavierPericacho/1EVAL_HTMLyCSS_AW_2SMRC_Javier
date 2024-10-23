@@ -5,3 +5,7 @@ p{
     color: red;
     background-color: aquamarine;
 }
+
+td{
+  text-align: center;
+}
